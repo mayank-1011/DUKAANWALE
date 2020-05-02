@@ -407,7 +407,7 @@ border-radius:20px;
   animation-name: example;
   animation-duration: 5s;  
   animation-fill-mode: forwards;
-  animation-iteration-count:3;
+  animation-iteration-count:infinite;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
   
