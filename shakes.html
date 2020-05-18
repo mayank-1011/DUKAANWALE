@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+ <html>
+
+<head>
+  <title>DUKAANWALE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://icons.iconarchive.com/icons/hydrattz/multipurpose-alphabet/256/Letter-D-blue-icon.png" type="image/png" sizes="16*16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap"
+    rel="<stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="shakes.css">
+</head>
+
+<body onload="load()">
+  <div id="loading"></div>
+  <!--****************************NAVBAR STARTS HERE***********************************************************-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="ror">
+      
+        <a class="navbar-brand font-weight-bold font-italic text-white" href="#">DUKAANWALE</a>
+        <div id="circle" style="width: 8px;height:3px; "></div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ">
+            <a class="nav-link font-weight-bold"  id="about" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" id="contacts" href="about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" id="signin" href="#">Sign In</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold " id="signup" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+
+  <!-------*************************************navbar ends here*********************************-->
+
+
+
+
+ <!--******************************************photo starts here   ********************************************-->
+ <div class="bg_round">
+  <pre style="color:white;overflow: hidden;">
+    <h1 style="font-weight:bold;font-family: 'Aladin', cursive;">Feeling Thirsty
+Get a Sip</h1>
+
+
+  </pre>
+    
+    <div class="srch-box">
+        <input type="text" placeholder="Search here..." id="srch-text" value="hi">
+        <a class="srch-btn" onclick="go()" href="#">
+            <i class="fa fa-search"  aria-hidden="true"></i>
+        </a>
+    </div>  
+    
+    </div>
+  <!--******************************************photo slider ends here   ********************************************-->
+
+
+
+
+
+    <!--******************************************dishes starts here   ********************************************-->
+    <div class="container ">
+        <div class="head">
+            <p style="color:#DAA520;font-size:20px;">-From 11.00pm to 10.00pm-</p>
+            <hr>
+            <p style="font-size:30px;">ORDER ONLINE</p>
+            <hr>
+        </div>
+        <div class="row mb-5">
+
+
+            <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInLeft a"  >
+              <div class="row">
+                 <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+                  <div class=" col-12 mt-1" style="background-color:white">
+                      <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                      <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Straw The Berry</h5>
+                      <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Impeccable taste of original Strawberries for an indelible experience</p>
+                      <p style="float:right">70/-</p>
+                  
+                  <div class="delicon-1" data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                      <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                  <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                      <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                  </div>
+
+                  <div class="col-12" id="open"><div class="openi"></div></div>
+              </div>
+          </div>
+      
+          <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInUp a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/2103945/pexels-photo-2103945.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">ChocShake</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Sense the aroma of authentic dark choclate yourself</p>
+                    <p style="float:right">80/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInRight a"  >
+            <div class="row">
+               <div class="col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Strawerry Milk Shake</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">A perfect combo of milk and strawberry together just for you</p>
+                    <p style="float:right">75/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInLeft a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/2103962/pexels-photo-2103962.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+                <div class="col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Oreo Shake</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">The same memorable taste of oreo in liquid form</p>
+                    <p style="float:right">55/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2" data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInUp a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/452740/pexels-photo-452740.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">WaterMelon Shake</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Let the watemelon become more watery</p>
+                    <p style="float:right">55/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+            
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInRight a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Orange Juice</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Sweet juicy oranges to refresh your soul</p>
+                    <p style="float:right">45/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+              
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInLeft a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">LemonMade</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Feels like made at home</p>
+                    <p style="float:right">35/-</p>
+                
+                <div class="delicon-1" data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2" data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+           
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInUp a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+                <div class=" col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">PomeGranate Juice</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Juicy ripen PomeGranate to keep you healthy </p>
+                    <p style="float:right">45/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3 wow animated fadeInRight a"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img class="pic" src="https://images.pexels.com/photos/2424034/pexels-photo-2424034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+                <div class="col-12 mt-1" style="background-color:white">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Aloo Tikki</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Authentic traditional Aloo Tikki  </p>
+                    <p style="float:right">45/-</p>
+                
+                <div class="delicon-1" data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery within 30 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+  
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+
+                
+        
+        </div>
+    </div>
+      <!--****************************************dishes ends here   ********************************************-->
+
+
+     <!--******************************************extra dishes starts here   ********************************************-->
+<div class="container">
+    <div class="random mt-3">
+        <p style="color:#DAA520;font-size:20px;">-Special Love-</p>
+        <hr>
+        <p style="font-size:30px;">FOR THE SPECIALS</p>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-4 q " id="box">
+          <a href="javascript:void()"><img class="img-fluid "
+              src="https://images.pexels.com/photos/1414304/pexels-photo-1414304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a>
+              <h4 style="font-family:'Cormorant Upright', serif ;">Coffee</h4>
+              <div class="hide" style="font-family:'Rokkitt', serif ;">
+          <p>Start your day with our brisk Cofee.</p>
+          <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+          <br>
+          <br>
+
+        </div>
+        <div class="col-md-4 q " id="box">
+          <a href="javascript:void()"><img src="https://images.pexels.com/photos/849646/pexels-photo-849646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></a>
+          <h4 style="font-family:'Cormorant Upright', serif ;">Cappuccino</h4>
+          <div class="hide" style="font-family:'Rokkitt', serif ;">
+      <p>For the hyperworkers, relax with this hyper Coffee.</p>
+      <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+          <br>
+          <br>
+
+        </div>
+        <div class="col-md-4 q " id="box">
+          <a href="javascript:void()"><img class="img-fluid "
+              src="https://images.pexels.com/photos/1187317/pexels-photo-1187317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></a>
+              <h4 style="font-family:'Cormorant Upright', serif ;">Tea</h4>
+              <div class="hide" style="font-family:'Rokkitt', serif ;">
+          <p>Rejuvenate yourself with an instant cup of Tea</p>
+          <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+          <br>
+          <br>
+        </div>
+        <div class="col-md-4 w " id="box">
+            <a href="javascript:void()"><img class="img-fluid "
+                src="https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></a>
+                <h4 style="font-family:'Cormorant Upright', serif ;">Green Tea</h4>
+                <div class="hide" style="font-family:'Rokkitt', serif ;">
+            <p>For the fitness freaks, a more healthier Green Tea.</p>
+            <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+            <br>
+            <br>
+  
+          </div>
+          <div class="col-md-4 w " id="box">
+            <a href="javascript:void()"><img class="img-fluid "
+                src="https://images.unsplash.com/photo-1525385133512-2f3bdd039054?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=332&q=80"></a>
+                <h4 style="font-family:'Cormorant Upright', serif ;">Mango Shake</h4>
+                <div class="hide" style="font-family:'Rokkitt', serif ;">
+            <p>Those who say summers aren't yellow, have not seen mangoes.</p>
+            <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+            <br>
+            <br>
+  
+          </div>
+          <div class="col-md-4 w " id="box">
+            <a href="javascript:void()"><img class="img-fluid "
+                src="https://images.pexels.com/photos/209594/pexels-photo-209594.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"></a>
+                <h4 style="font-family:'Cormorant Upright', serif ;">Rasana</h4>
+                <div class="hide" style="font-family:'Rokkitt', serif ;">
+            <p>Tangy orangey juice with new added flavours.</p>
+            <div id="order" class="btn btn-primary" href="javascript:void()">ORDER NOW</div></div> 
+            <br>
+            <br>
+          </div>
+          
+
+</div>
+      <!--****************************************extra dishes ends here   ********************************************-->
+
+
+<!--******************************************FOOTER EFFECT*******************************************************-->
+<div class="container footer bg bg-light mb-5 mt-4 ">
+    <div class="row">
+      <div class="col-md-4 col-12 footer-ins">
+        <p style="color:red;font-weight:600">About Us</p>
+        <div class="underl"></div>
+        <p>Three Quarantined Techno Geeks in quest of making the most of free time available, started a hotel in 2019. Constant efforts and unshaken will power resulted in more than 9000 franchise in less than a year. Customer happiness has always been our topmost priority and motto and we will abide by this. </p>
+      </div>
+      <div class="col-md-4 col-12 footer-ins">
+        <p style="color:red;font-weight:600">Contact Us</p>
+        <div class="underl"></div>
+        <pre >   <i class="fas fa-phone" style="color:red;font-size: 20px;"aria-hidden="true"></i>    9971503231
+  
+  
+   <i style="color:red;font-size: 20px;" class="fas fa-envelope" aria-hidden="true"></i>    mayankyadav2373.gmail.com
+  
+  
+   <i style="color:red;font-size: 20px;" class="fas fa-map-marker-alt" aria-hidden="true"></i>     HeadQuarters New Delhi,India
+  
+  </pre>
+      </div>
+      <div class="col-md-4 col-12 footer-ins">
+        <p style="color:red;font-weight:600">Popular Articles</p>
+        <div class="underl"></div>
+        <p>The Rising Of Dukaanwale</p>
+        <p>The New Norml Way to Cook Food</p>
+        <p>Covering The World with Food</p>
+        <p>The Customer Care</p>
+      </div>
+    </div>
+  
+    <div style="text-align: center;"><i class="fa fa-copyright" aria-hidden="true"></i>2020 <span style="color:red">DUKAANWALE</span>. All rights reserved. Powered by <span style="color:red">Mayank</span></div>
+    
+  </div>
+  
+  
+  
+  
+  <!--******************************************FOOTER EFFECT*******************************************************-->
+
+
+
+
+
+  
+
+  
+    <!--*******************************************login popup starts here*******************************************-->
+<div class=" d-flex " id="login-pop">
+    <div class="container " id="login-cont">
+      <i class="fa fa-user-circle" aria-hidden="true"></i>
+      <i class="fa fa-times" id="cross" aria-hidden="true"></i>
+      <br>
+      <br>
+      
+      <form action="#" onsubmit="return validate()">
+       
+        <input type="text" name="email" id="email" placeholder="Email/Mobile" required>
+        <input type="password" name="pass" id="password" placeholder="Password" required>
+        <button type="submit" id="submit" >LOGIN</button>
+        <button type="submit" id="submit2">SIGN UP</button>
+      </form>
+      <h4>  OR </h4>
+      <i class="fab fa-google" id="or"></i>
+      <i class="fab fa-facebook-square" id="orf"></i>
+    </div>
+  </div>
+      <!--*******************************************login popup ends here*******************************************-->
+  
+  
+    <!--*******************************************sign up starts here*******************************************-->
+  
+    <div class=" d-flex" id="sign-up">
+      <div class="container " id="signup-cont">
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <i class="fa fa-times" id="cross1" aria-hidden="true"></i>
+        <br>
+        <br>
+        
+        <form action="#" onsubmit="return signup_val()">
+         
+          <input type="text" name="name" id="name" placeholder="Full Name" required>
+          <input type="text" name="email" id="mail" placeholder="Email/Mobile" required>
+          <button type="submit" id="submit" >SUBMIT</button>
+        
+        </form>
+        <h4> OR </h4>
+      <i class="fab fa-google" id="or2"></i>
+      <i class="fab fa-facebook-square" id="orf2"></i>
+      </div>
+    </div>
+    <!--*******************************************sign up ends here*******************************************-->
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.js"
+      integrity="sha256-nnFnuz7rC1JLnvsb8M7A9aXcRHTpUN4vYA26t2UO+dQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" 
+      integrity="sha256-399DNRyfIpWIy1ZV0KmEIIuIQ5sBHdLu9MBtVHrNtt8=" crossorigin="anonymous"></script>
+      <script>
+        new WOW().init();
+        </script>
+      <script src="shakes.js""></script>"
+</body>
+</html>
