@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DUKAANWALE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="icon" href="https://icons.iconarchive.com/icons/hydrattz/multipurpose-alphabet/256/Letter-D-blue-icon.png" type="image/png" sizes="16*16">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap"
+    rel="<stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/b018985e60.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rokkitt&family=Sarabun:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:wght@700&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="pizza.css">
+</head>
+<body onload="load()">
+  <div id="loading"></div>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="ror">
+      
+        <a class="navbar-brand font-weight-bold font-italic text-white" href="#">DUKAANWALE</a>
+        <div id="circle" style="width:15px;height:5px; border-radius: 20%;"></div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ">
+            <a class="nav-link font-weight-bold" id="about" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" id="contacts" href="about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" id="signin" href="#">Sign In</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold " id="signup" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+<!--*****************************************photo starts here*****************************************************-->
+<div class="bg_round">
+<pre style="color:black;overflow: hidden;">
+<h1 style="font-weight:bold;font-family: 'Aladin', cursive;">Perfect Slice
+Perfect Price</h1>
+
+
+</pre>
+
+<div class="srch-box">
+    <input type="text" placeholder="Search here..." id="srch-text">
+    <a class="srch-btn" href="#" onclick="go()">
+        <i class="fa fa-search"  aria-hidden="true"></i>
+    </a>
+</div>  
+
+</div>
+
+<!--*****************************************photo ends here*****************************************************-->
+
+
+<!--*****************************************pizza types starts here*****************************************************-->
+
+<div class="container" id="cont">
+    <div class="row " style="text-align: center;">
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%">
+        </div>
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%">
+        </div>
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%">
+        </div>
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://images.pexels.com/photos/4008382/pexels-photo-4008382.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%">
+        </div>
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://image.shutterstock.com/image-photo/photo-happy-man-delivery-service-260nw-1054633013.jpg" width="100%">
+        </div>
+        <div class=" col-4 col-md-2  rounded " id="cont-ins" style="background-color:white">
+          <img src="https://images.pexels.com/photos/3944309/pexels-photo-3944309.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="100%">
+        </div>
+       
+
+    </div>
+</div>
+
+<!--*****************************************pizza types ends here*****************************************************-->
+
+
+<!--*****************************************pizza shops starts here*****************************************************-->
+<section class="container mb-3" >
+
+
+<div class="container mt-5" id="shops" style="font-family: 'Cormorant Upright', serif">
+    <h3 style="color:#DAA520">TOP DISHES</h3>
+    <p>Grab the best of Pizza's in your city</p>
+</div>
+
+
+<div class="container border border-dark rounded" id="baap">
+    <div class="row mb-5" >
+
+
+      <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+        <div class="row" >
+           <div class="col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+            <div class=" col-12 mt-1" style="background-color:white">
+                <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Onion Pizza</h5>
+                <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Onion inside, Onion Outside </p>
+                <p style="float:right">135/-</p>
+            
+            <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+            <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+                <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+            </div>
+     
+            <div class="col-12" id="open"><div class="openi"></div></div>
+        </div>
+    </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+            <div class="row">
+               <div class=" col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/263041/pexels-photo-263041.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+                <div class=" col-12 mt-1" style="background-color:white;">
+                    <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                    <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Corriander Pizza</h5>
+                    <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Feel the fresh Corriander</p>
+                    <p style="float:right">110/-</p>
+                
+                <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                    <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+                <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12" id="open"><div class="openi"></div></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+          <div class="row">
+             <div class=" col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+              <div class=" col-12 mt-1" style="background-color:white">
+                  <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                  <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Dream Cream</h5>
+                  <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">A classic delight loaded with real creeam</p>
+                  <p style="float:right">195/-</p>
+              
+              <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                  <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+              <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+                  <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+              </div>
+  
+              <div class="col-12" id="open"><div class="openi"></div></div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+        <div class="row">
+           <div class="col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+            <div class="col-12 mt-1" style="background-color:white">
+                <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+                <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Beet n Root</h5>
+                <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Topped with sweet and juicy BeetRoot</p>
+                <p style="float:right">145/-</p>
+            
+            <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+                <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+            <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+                <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+            </div>
+          
+            <div class="col-12" id="open"><div class="openi"></div></div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+      <div class="row">
+         <div class=" col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+          <div class=" col-12 mt-1" style="background-color:white">
+              <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+              <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">StrawPizzaBerry</h5>
+              <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">A delicate taste of juicy strawberry </p>
+              <p style="float:right">190/-</p>
+          
+          <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+              <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+          <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+              <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+          </div>
+   
+          <div class="col-12" id="open"><div class="openi"></div></div>
+      </div>
+  </div>
+
+  <div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+    <div class="row">
+       <div class="col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+        <div class=" col-12 mt-1" style="background-color:white">
+            <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+            <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Egg Pizza</h5>
+            <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Embedded egg, a diet lovers pick</p>
+            <p style="float:right">210/-</p>
+        
+        <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+            <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+        <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+            <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+        </div>
+       
+        <div class="col-12" id="open"><div class="openi"></div></div>
+
+    </div>
+</div>
+
+<div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+  <div class="row">
+     <div class="col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" ></div>
+      <div class=" col-12 mt-1" style="background-color:white">
+          <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+          <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">BlackBerry Pizza</h5>
+          <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Flavourful combination of chilli with Blackberry</p>
+          <p style="float:right">180/-</p>
+      
+      <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+          <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+      <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+          <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+      </div>
+   
+      <div class="col-12" id="open"><div class="openi"></div></div>
+
+  </div>
+</div>
+
+<div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+  <div class="row">
+     <div class=" col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+      <div class=" col-12 mt-1" style="background-color:white">
+          <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+          <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">PinkItalian Pizza</h5>
+          <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Extra Italian colorfull combination for that extra Zing</p>
+          <p style="float:right">245/-</p>
+      
+      <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+          <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+      <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+          <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+      </div>
+   
+      <div class="col-12" id="open"><div class="openi"></div></div>
+
+  </div>
+</div>
+
+<div class="col-12 col-md-4 mb-3 pt-2 pb-3"  >
+  <div class="row">
+     <div class=" col-12 photo" ><div class="overlay"></div><img  src="https://images.pexels.com/photos/2918521/pexels-photo-2918521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" ></div>
+      <div class=" col-12 mt-1" style="background-color:white">
+          <div class="like-icon"><i class="far fa-heart" aria-hidden="true"></i></div>
+          <h5 class="dish" style="font-weight: bold;font-size: 23px; font-family:'Cormorant Upright', serif ;">Extra Cheese</h5>
+          <p style="color:#7f7f7f; font-size:17px;font-family:'Rokkitt', serif;">Experience the softness and crunch of super Cheese </p>
+          <p style="float:right">245/-</p>
+      
+      <div class="delicon-1 " data-toggle="tooltip" data-placement="top" data-html="true" title="Orderable" >
+          <i class="fa fa-clock-o" aria-hidden="true" ></i></div>
+      <div class="delicon-2 " data-toggle="tooltip" data-placement="top" data-html="true" title="Delivery in 40 mins" >
+          <i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+      </div>
+   
+      <div class="col-12" id="open"><div class="openi"></div></div>
+
+  </div>
+</div>
+
+
+
+
+    </div>
+</div>
+</section>
+
+<!--*****************************************pizza shops ends here*****************************************************-->
+
+
+<!--*****************************************rotate starts here*****************************************************-->
+<div class="container mt-4 mb-4 pt-3 pb-3 rounded" style="background-color:black " >
+
+      <div class="white" style="background-color: white;height:16em;width:16em;border-radius: 50%;text-align: center;">
+      <div class="cube">
+        <div class="side front">PIZZA?</div>
+        <div class="side fgap"></div>
+        <div class="side back">Order</div>
+        <div class="side right">Now</div>
+        <div class="side lgap"></div>
+        <div class="side left">Wait:</div>
+      </div>
+    </div>
+      <div class="under"></div>
+    </div>
+
+<!--*****************************************rotate ends here*****************************************************-->
+
+
+<!--******************************************PARALLAX EFFECT*****************************************************-->
+<div class="container map mb-4 rounded" >'
+  <div class="services">
+    <p>SERVICES ALL AROUND THE GLOBE</p>
+    <p>LIGHTINING FAST DELIVERY</p>
+    <p>EXCITING OFFERS</p>
+    <p>COOKED WITH UTMOST CARE</p>
+    <p>FREE DELIVERY</p>
+    
+
+  </div>
+
+</div>
+<!--******************************************PARALLAX EFFECT*****************************************************-->
+
+
+
+<!--******************************************FOOTER EFFECT*******************************************************-->
+<div class="container footer bg bg-light mb-5 ">
+  <div class="row">
+    <div class="col-md-4 col-12 footer-ins">
+      <p style="color:red;font-weight:600">About Us</p>
+      <div class="underl"></div>
+      <p>Three Quarantined Techno Geeks in quest of making the most of free time available, started a hotel in 2019. Constant efforts and unshaken will power resulted in more than 9000 franchise in less than a year. Customer happiness has always been our topmost priority and motto and we will abide by this. </p>
+    </div>
+    <div class="col-md-4 col-12 footer-ins">
+      <p style="color:red;font-weight:600">Contact Us</p>
+      <div class="underl"></div>
+      <pre > <i class="fas fa-phone" style="color:red;font-size: 20px;"aria-hidden="true"></i>    9971503231
+
+
+ <i style="color:red;font-size: 20px;" class="fas fa-envelope" aria-hidden="true"></i>    mayankyadav2373.gmail.com
+
+
+ <i style="color:red;font-size: 20px;" class="fas fa-map-marker-alt" aria-hidden="true"></i>     HeadQuarters New Delhi,India
+
+</pre>
+    </div>
+    <div class="col-md-4 col-12 footer-ins">
+      <p style="color:red;font-weight:600">Popular Articles</p>
+      <div class="underl"></div>
+      <p>The Rising Of Dukaanwale</p>
+      <p>The New Norml Way to Cook Food</p>
+      <p>Covering The World with Food</p>
+      <p>The Customer Care</p>
+    </div>
+  </div>
+
+  <div style="text-align: center;"><i class="fa fa-copyright" aria-hidden="true"></i>2020 <span style="color:red">DUKAANWALE</span>. All rights reserved. Powered by <span style="color:red">Mayank</span></div>
+  
+</div>
+
+
+
+
+<!--******************************************FOOTER EFFECT*******************************************************-->
+
+
+
+
+    <!--*******************************************login popup starts here*******************************************-->
+    <div class=" d-flex " id="login-pop">
+      <div class="container " id="login-cont">
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <i class="fa fa-times" id="cross" aria-hidden="true"></i>
+        <br>
+        <br>
+        
+        <form action="#" onsubmit="return validate()">
+         
+          <input type="text" name="email" id="email" placeholder="Email/Mobile" required>
+          <input type="password" name="pass" id="password" placeholder="Password" required>
+          <button type="submit" id="submit" >LOGIN</button>
+          <button type="submit" id="submit2">SIGN UP</button>
+        </form>
+        <h4>  OR </h4>
+        <i class="fab fa-google" id="or" aria-hidden="true"></i>
+        <i class="fab fa-facebook-square" id="orf" aria-hidden="true"></i>
+      </div>
+    </div>
+        <!--*******************************************login popup ends here*******************************************-->
+    
+    
+      <!--*******************************************sign up starts here*******************************************-->
+    
+      <div class=" d-flex" id="sign-up">
+        <div class="container " id="signup-cont">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <i class="fa fa-times" id="cross1" aria-hidden="true"></i>
+          <br>
+          <br>
+          
+          <form action="#" onsubmit="return signup_val()">
+           
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+            <input type="text" name="email" id="mail" placeholder="Email/Mobile" required>
+            <button type="submit" id="submit" >SUBMIT</button>
+          
+          </form>
+          <h4> OR </h4>
+          <i class="fab fa-google" id="or2" aria-hidden="true"></i>
+          <i class="fab fa-facebook-square" id="orf2" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!--*******************************************sign up ends here*******************************************-->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"
+integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.js"
+  integrity="sha256-nnFnuz7rC1JLnvsb8M7A9aXcRHTpUN4vYA26t2UO+dQ=" crossorigin="anonymous"></script>
+  <script src="pizza.js"></script>
+</body>
+  </html>
